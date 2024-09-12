@@ -1,0 +1,65 @@
+{
+    "courses": [
+        {
+          "id": 1,
+          "title": "Mastering Guitar Techniques",
+          "slug": "mastering-guitar-techniques",
+          "description": "Learn advanced guitar techniques to play like a pro. Perfect for intermediate players.",
+          "price": 49.99,
+          "instructor": "John Smith",
+          "isFeatured": true,
+          "image": "https://i.imgur.com/HdJvFvU.jpg"
+        },
+        {
+          "id": 2,
+          "title": "Introduction to Piano",
+          "slug": "introduction-to-piano",
+          "description": "A beginner-friendly course to start your journey with piano playing and music theory.",
+          "price": 39.99,
+          "instructor": "Emma Wilson",
+          "isFeatured": false,
+          "image": "https://i.imgur.com/KSUnWQg.jpg"
+        },
+        {
+          "id": 3,
+          "title": "Drumming for Beginners",
+          "slug": "drumming-for-beginners",
+          "description": "Kickstart your drumming journey with step-by-step guidance on rhythm and beats.",
+          "price": 29.99,
+          "instructor": "Alex Johnson",
+          "isFeatured": true,
+          "image": "https://i.imgur.com/nT9MIJc.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Vocal Training 101",
+          "slug": "vocal-training-101",
+          "description": "Improve your vocal range and techniques with this comprehensive vocal training course.",
+          "price": 44.99,
+          "instructor": "Sarah Brown",
+          "isFeatured": false,
+          "image": "https://i.imgur.com/F4zGAxT.jpg"
+        },
+        {
+          "id": 5,
+          "title": "Music Production Basics",
+          "slug": "music-production-basics",
+          "description": "Learn the essentials of music production and start producing your own tracks.",
+          "price": 59.99,
+          "instructor": "David Lee",
+          "isFeatured": true,
+          "image": "https://i.imgur.com/RlmdbPU.jpg"
+        },
+        {
+          "id": 6,
+          "title": "Advanced Jazz Techniques",
+          "slug": "advanced-jazz-techniques",
+          "description": "Master jazz improvisation and advanced techniques with this course designed for experienced musicians.",
+          "price": 79.99,
+          "instructor": "Michael Davis",
+          "isFeatured": false,
+          "image": "https://i.imgur.com/Ta2QsBe.jpg"
+        }
+      ]
+      
+}

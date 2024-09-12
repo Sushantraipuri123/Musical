@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Define light mode colors using CSS variables */
 :root {
   --background: #ffffff;
   --foreground: #171717;
 }
 
+/* Dark mode using prefers-color-scheme media query */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
@@ -14,12 +16,13 @@
   }
 }
 
+/* Apply the colors to the body */
 body {
-  color: var(--foreground);
-  background: var(--background);
+  @apply bg-[var(--background)] text-[var(--foreground)];
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Define custom utility in Tailwind for balanced text wrap */
 @layer utilities {
   .text-balance {
     text-wrap: balance;
