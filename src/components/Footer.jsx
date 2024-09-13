@@ -1,8 +1,9 @@
 import React from 'react';
+import { BackgroundBeams } from './ui/background-beams';
 
 function Footer() {
   return (
-    <footer className="bg-gray-900 text-white py-10">
+    <footer className="bg-neutral-950  text-white py-10 relative antialiased " >
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About Us Section */}
@@ -33,6 +34,7 @@ function Footer() {
           © 2024 Sushant. All rights reserved.
         </div>
       </div>
+      <BackgroundBeams />
     </footer>
   );
 }
