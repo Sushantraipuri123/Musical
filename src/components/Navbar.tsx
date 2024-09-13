@@ -27,11 +27,11 @@ function Navbar({ className }: { className?: string }) {
             <HoveredLink href="/cources">Music Production</HoveredLink>
           </div>
         </MenuItem>
-        <Link href={"/contact"}>
+        <Link href={"/about"}>
           <MenuItem
             setActive={setActive}
             active={active}
-            item="Contact Us"
+            item="About Us"
           ></MenuItem>
         </Link>
       </Menu>
