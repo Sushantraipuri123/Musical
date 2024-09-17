@@ -1,4 +1,5 @@
 import AboutHero from '@/components/AboutHero'
+import { GlobeDemo } from '@/components/GlobeDemo'
 import React from 'react'
 
 function About() {
@@ -7,7 +8,9 @@ function About() {
       <div className='h-[100vh] flex items-center justify-center'>
         <AboutHero/>
       </div>
-  asdfasdfasfasd
+      <div className="container mx-auto mt-5">
+        <GlobeDemo/>
+      </div>
     </main>
   )
 }

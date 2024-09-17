@@ -1,6 +1,5 @@
 import { notFound } from 'next/navigation';
 import courseData from '@/data/music_courses.json';
-import Image from 'next/image';
 import { BackgroundBeamsWithCollision } from "@/components/ui/background-beams-with-collision";
 interface Course {
   id: number;
@@ -28,19 +27,7 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
   }
 
   return (
-    // <div>
-    //   <h1>{course.title}</h1>
-    //   <p>{course.description}</p>
-    //   <p>Instructor: {course.instructor}</p>
-    //   <p>Price: ${course.price}</p>
-    //   <Image
-    //     src={course.image}
-    //     alt={course.title}
-    //     width={1000}
-    //     height={600}
-    //     style={{  borderRadius: '10px', marginTop: '20px' }}
-    //   />
-    // </div>
+   
     <>
     <BackgroundBeamsWithCollision>
       <h2 className="text-2xl relative z-20 md:text-4xl lg:text-7xl font-bold text-center text-black dark:text-white font-sans tracking-tight ">
@@ -55,8 +42,16 @@ export default function CoursePage({ params }: { params: { slug: string } }) {
       </h2>
     </BackgroundBeamsWithCollision>
 
-    <div className="container my-4 mx-auto border">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum veniam libero architecto optio sapiente laboriosam deserunt nobis accusantium earum quaerat aliquam praesentium perferendis nostrum, impedit, eligendi nulla maxime totam ipsa neque repudiandae minus? Aliquid pariatur nemo et atque fugiat ab soluta enim optio praesentium!
+    <div className="container my-4 mx-auto">
+      <div className="grid grid-cols-1   md:grid-cols-2 lg:grid-cols-2 gap-4 bg-gradient-to-b  from-neutral-600 to-neutral-750 items-center">
+        <div className=" w-full h-full flex items-center p-3">
+          <p>{course.description}</p>
+        </div>
+        <div className="">
+          <img src={course.image} alt={course.title} className='object-contain w-full' />
+        </div>
+
+      </div>
     </div>
     </>
   );
