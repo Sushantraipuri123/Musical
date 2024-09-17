@@ -8,7 +8,7 @@
           "price": 49.99,
           "instructor": "John Smith",
           "isFeatured": true,
-          "image": "https://i.imgur.com/HdJvFvU.jpg"
+          "image": "https://cdn.mos.cms.futurecdn.net/HAAqRuQnhmiQkY3oHShoZf.jpg"
         },
         {
           "id": 2,
@@ -18,7 +18,7 @@
           "price": 39.99,
           "instructor": "Emma Wilson",
           "isFeatured": false,
-          "image": "https://i.imgur.com/KSUnWQg.jpg"
+          "image": "https://www.newschool.ie/wp-content/uploads/2017/10/introducing-piano-keyboard-for-adults2.jpg"
         },
         {
           "id": 3,
@@ -28,7 +28,7 @@
           "price": 29.99,
           "instructor": "Alex Johnson",
           "isFeatured": true,
-          "image": "https://i.imgur.com/nT9MIJc.jpg"
+          "image": "https://rocklin.musiclab.co/wp-content/uploads/sites/2/2022/01/drum-lessons-rocklin.jpeg"
         },
         {
           "id": 4,
@@ -38,7 +38,7 @@
           "price": 44.99,
           "instructor": "Sarah Brown",
           "isFeatured": false,
-          "image": "https://i.imgur.com/F4zGAxT.jpg"
+          "image": "https://d26oc3sg82pgk3.cloudfront.net/files/media/edit/image/47740/large_thumb%403x.jpg"
         },
         {
           "id": 5,
@@ -48,7 +48,7 @@
           "price": 59.99,
           "instructor": "David Lee",
           "isFeatured": true,
-          "image": "https://i.imgur.com/RlmdbPU.jpg"
+          "image": "https://abbeyroadinstitute.com.au/wp-content/uploads/sites/8/2021/08/music-producer-studio-course.jpg"
         },
         {
           "id": 6,
@@ -58,7 +58,7 @@
           "price": 79.99,
           "instructor": "Michael Davis",
           "isFeatured": false,
-          "image": "https://i.imgur.com/Ta2QsBe.jpg"
+          "image": "https://media.istockphoto.com/id/1367926307/photo/concert-view-of-a-saxophone-player-with-vocalist-and-musical-jazz-band-in-the-background.jpg?s=612x612&w=0&k=20&c=kHKSw6DpApC9-3Do0ntxTh1ZfWd6WeuD9v9TtBPfsxU="
         }
       ]
       
