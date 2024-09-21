@@ -19,7 +19,7 @@ interface Course {
 export function FeaturesSectionDemo() {
   return (
     <>
-      <div className=" flex flex-wrap gap-1 lg:gap-8 xl:gap-10 mx-2 lg:mx-4 xl:mx-8 justify-center">
+      <div className=" flex flex-wrap gap-1 lg:gap-8 xl:gap-10 mx-2 lg:mx-4 xl:mx-8 justify-center my-2">
         {courseData.courses.map((course: Course) => (
           <CardContainer key={course.id}>
             <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border">
